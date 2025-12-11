@@ -44,7 +44,7 @@ button:active { transform: scale(0.95); }
 .footer { margin-top: 40px; color: #ffccaa; }
 .footer a { color: #ff3366; font-weight: bold; text-decoration: none; }
 
-/* 移动设备优化 */
+/* Mobile optimization */
 @media (max-width: 500px) {
   .container { margin: 10px auto; padding: 10px; }
   h1 { font-size: 2.5rem; }
