@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Match-3 - Gift Blast! VRGame8.com</title>
+  <meta name="description" content="Swap gifts to match 3+, blast combos! Snow, music, endless fun.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="snow"></div>
+  <!-- 简化的音频，不自动播放 -->
+  <audio id="bgMusic" loop>
+    <source src="https://assets.mixkit.co/music/preview/mixkit-jingle-bells-311.mp3" type="audio/mpeg">
+    您的浏览器不支持音频元素。
+  </audio>
+  <div class="container">
+    <h1>🎄 Christmas Match-3</h1>
+    <p class="subtitle">Swap 🎁🍭🌟🔔🎄 to Blast!</p>
+    
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    
+    <div class="ui">
+      <div class="score">Score: <span id="score">0</span></div>
+      <div class="best">Best: <span id="best">0</span></div>
+    </div>
+    
+    <p class="message" id="message">Tap/Swipe to swap gifts!</p>
+    <button onclick="restart()" id="restartBtn" style="display:none;">Play Again 🎅</button>
+    
+    <div class="footer">
+      More Christmas games → <a href="https://vrgame8.com" target="_blank">VRGame8.com</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
